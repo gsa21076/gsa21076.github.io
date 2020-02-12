@@ -1,0 +1,73 @@
+.main{
+	display: inline-block;
+ background-color: #e9f3f3;
+	width: 570px;
+	height: 570px;
+}
+.main-content{
+	padding: 30px;
+	background-color: #fff;
+	margin-top: 80px;
+	margin-left: 100px;
+	width: 320px;
+	height: 370px;
+}
+.form-main{
+	margin-top: -35px;
+	width: 150px;
+	height: 25px;
+}
+.form-main-header{
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+	display: inline-block;
+	padding: 5px;
+	font-size: 12px;
+	text-transform: uppercase;
+	background-color: #01b3b3;
+ color: #fff;
+}
+.form-email{
+	margin-top: 25px;
+	border: none;
+}
+.form-p{
+	font-size: 12px;
+ font-family: Arial, sans-serif;
+ font-weight: 700;
+}
+.form-label{
+margin-bottom: 15px; 
+}
+
+.form-input{
+	width: 260px;
+	height: 30px;
+ margin-bottom: 25px;
+	background-color: #e9f3f3;
+}
+.form-label-btn{
+	margin-top:10px;
+ text-align: center;
+}
+.form-btn{
+	width: 260px;
+	height: 45px;
+ padding: 5px;
+	background-color: #01b3b3;
+	text-transform: uppercase;
+	display: block;
+	font-weight: 700;
+	font-size: 16px;
+	color:#fff;
+	border: none;
+	border-radius: 5px;
+
+}
+.form-type{
+	background-color: #e9f3f3;
+}
+::-webkit-input-placeholder { font-style: italic; }
+::-moz-placeholder          { font-style: italic; } /*Firefox 19+*/
+:-moz-placeholder           { font-style: italic; } /*Firefox 18-*/
+:-ms-input-placeholder      { font-style: italic; }
