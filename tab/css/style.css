@@ -1,0 +1,80 @@
+body {
+	font-size: 24px;
+}
+.container {
+	border: 1px solid green;
+
+}
+
+.main {
+	/*position: relative;*/
+	width: 800px;
+	height: 500px;
+	margin: 40px auto;
+	border: 1px solid red;
+	background-image: url(../img/background.png);
+	
+}
+li.active {
+	background-color: #03a5da;
+}
+.form {
+ width: 600px;
+ height: 400px;
+ margin: 30px auto 10px;
+}
+input {
+	background-color: #000;
+	width: 480px;
+	height: 60px;
+ padding: 10px auto;
+}
+.input-content {
+	font-size: 25px;
+	color: #fff;
+	padding: 10px auto;
+}
+.form-content {
+	background-color: #000;
+	padding: 20px;
+	border: 20px solid #03a5da;
+	border-radius: 5px;
+}
+.form-content input {
+	margin: 40px auto;
+	color: #fff;
+
+}
+.foget {
+	font-size: 15px;
+	color: #c51f03;
+	}
+.sqw {
+		width: 10px;
+		height: 10px;
+		display: inline-block;
+		background-color: #ececec;
+		text-decoration: none;
+		color: #ececec;
+			}
+.sqw:hover {
+			text-decoration: none;
+		}
+	.ss {
+		font-size: 14px;
+		color: #ececec;
+	}
+.button {
+	/*display: inline-block;*/
+	position: relative;
+	color: #ececec;
+	/*background-color: #810601;*/
+	background: linear-gradient(270deg, #810601, #bd1c03);
+	border-radius: 0;
+	border: none;
+	display: block;
+	top: -90px;
+	left: 73%;
+	padding: 12px 49px 12px 25px ;
+	
+}
