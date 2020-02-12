@@ -1,0 +1,23 @@
+body {
+	font-family: "ubuntu", sans-serif;
+	font-size: 22px;
+	background-image: url(../img/background.png);
+}
+.container {
+
+}
+.section {
+	width: 860px;
+	height: 530px;
+}
+.header {
+	margin: 40px auto;
+ font-size: 36px;
+ color: #0bbaf0;
+}
+.parag {
+	font-size: 24px;
+}
+.panel-default>.panel-heading {
+	background-color: #0bbaf0;
+}
