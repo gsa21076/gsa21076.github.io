@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Модальное окно в Magnific Popup</title>
+	<!-- Подключение ститей Magnific -->
+<link rel="stylesheet" href="css/magnific-popup.css">
+<!-- Подключение своих стилей -->
+<link rel="stylesheet" href="css/style.css">
+<body>
+  <!-- Ссылка на 1 фото -->
+<a class="link image-link" href="img/foto2.png">Открыть картинку</a>
+<!-- Ссылка на галерею -->
+<div class="gallery">
+    <a href="img/foto1.png"><img src="img/foto1.png" class="small" alt=""></a>
+    <a href="img/foto2.png"><img src="img/foto2.png" class="small" alt=""></a>
+    <a href="img/foto3.png"><img src="img/foto3.png" class="small" alt=""></a>
+    <a href="img/foto4.png"><img src="img/foto4.png" class="small" alt=""></a>
+    <a href="img/foto5.png"><img src="img/foto5.png" class="small" alt=""></a>
+    <a href="img/foto6.png"><img src="img/foto6.png" class="small" alt=""></a>
+    <a href="img/foto7.png"><img src="img/foto7.png" class="small" alt=""></a>
+    <a href="img/foto8.png"><img src="img/foto8.png" class="small" alt=""></a>
+</div>
+
+	
+<!-- Подключение бибилиотеки jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<!-- Подключение Magnific Popup.js -->
+<script src="js/jquery.magnific-popup.min.js"></script>
+<!-- Инициализация модального окна с фото -->
+<script>
+  $(document).ready(function() {
+  $('.image-link').magnificPopup({type:'image'});
+});
+</script>
+<!-- Инициализация модального окна галерея -->
+<script>  
+$('.gallery').each(function() { // the containers for all your galleries
+    $(this).magnificPopup({
+        delegate: 'a', // the selector for gallery item
+        type: 'image',
+        gallery: {
+          enabled:true
+        }
+    });
+});
+</script>
+
+</body>
+</html>
