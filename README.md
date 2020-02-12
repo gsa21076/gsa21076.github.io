@@ -1,7 +1,7 @@
 # gsa21076.github.io
 Мои домашние работы
 
-[Главный проект](https://gsa21076.github.io/main-project/ "Штукатурка стен") - первая секция, преимущества, адаптив. Уроки до 5-5
+[Главный проект](https://gsa21076.github.io/main-project/ "Штукатурка стен") - первая секция, преимущества, адаптив. Уроки до 5-5  
 [Урок_13](https://gsa21076.github.io/adaptive/ "Адаптив") - Верстка PixelPerfect  
 [Урок_15](https://gsa21076.github.io/psevdoclass/ "Hover-before") - Верстка псевдоклассы и псевдоэлементы  
 [Урок_16](https://gsa21076.github.io/slider/ "Slider") - Верстка Слайдера  
