@@ -9,7 +9,8 @@
 [Урок_17](https://gsa21076.github.io/Magnific-Popup/ "Modal-window") - Верстка Модального окна MagnificPopup  
 [Урок_18](https://gsa21076.github.io/tab/ "TAB") - Верстка TABов  
 [Урок_18](https://gsa21076.github.io/accordion/ "Accordion") - Верстка Акордиона  
-[Урок_19](https://gsa21076.github.io/tab/ "TAB") - Верстка TABов с анимацией
+[Урок_19](https://gsa21076.github.io/tab/ "TAB") - Верстка TABов с анимацией  
+[Урок_20](https://gsa21076.github.io/tab/ "TAB") - Верстка TABов с анимацией
 
 
 
