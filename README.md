@@ -10,7 +10,7 @@
 [Урок_18](https://gsa21076.github.io/tab/ "TAB") - Верстка TABов  
 [Урок_18](https://gsa21076.github.io/accordion/ "Accordion") - Верстка Акордиона  
 [Урок_19](https://gsa21076.github.io/tab/ "TAB") - Верстка TABов с анимацией  
-[Урок_20](https://gsa21076.github.io/tab/ "TAB") - Верстка TABов с анимацией
+[Урок_20](gsa21076.github.io/src/ "Урок 6-7") - Главный проект - отзывы
 
 
 
