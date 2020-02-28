@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+}
+body {
+	min-height: 100vh;
+	font-family: "ubuntu", sans-serif;
+	font-size: 22px;
+	/* background-image: url(../video/coverr-waves-and-sand-1561484040281.jpg); */
+}
+.container {
+	text-align: center;
+	display: table;
+}
+.section {
+	display: table-cell;
+	width: 860px;
+	height: 530px;
+}
+.header {
+	margin: 40px auto;
+ font-size: 36px;
+ color: #0bbaf0;
+}
+.parag {
+	font-size: 24px;
+}
+.panel-default>.panel-heading {
+	background-color: #0bbaf0;
+}
