@@ -75,7 +75,6 @@ a:hover{
 
 /* Typographics */
 
-
 //  Шапка сайта
 .header{  
 	height: 7rem;  //Высота
@@ -142,6 +141,8 @@ section{
 		}
 	}
 
+	
+
 	//-- Подзаголовок
 	&-subtitle{         
 		font-size: 2.4rem;
@@ -173,7 +174,7 @@ section{
 	&-form{
 		padding: 4rem 5rem;
 		background-color: @light;
-  text-align: center;
+    text-align: center;
   &-header{
   	font-size: 1.8rem;
   	margin-bottom: 4rem;
@@ -181,39 +182,48 @@ section{
   		font-size: 1.9rem;
   	}
   }
-	// Поле для ввода
-	&-input{
-		display: block;
-		width: 100%;
-  padding: 1.7rem;
-		margin-bottom: 2rem;
-		border: 1px solid @color-input;
-		border-radius: 5px;
- 	}
- 	// Подписи к полям
-  label{
- 		position: absolute;
- 		left: 50%;
- 		transform: translateX(-50%) translateY(-50%);
- 		background-color: @light;
- 		padding: 0.5rem;
- 		font-size: 1.3rem;
- 	}
- 	// Кнопка оставить заявку
- 	&-btn{
- 		height: 5rem;
- 		width: 100%;
- 		font-size: 1.6rem;
-   margin-bottom: 1.4rem;
- 	}
+	
  	small{
  		font-size: 1.2rem;
  	}
 	}
 }
 
-/* Оформление блока с преимуществами */
+/* Оформление форм */
+.form {
 
+	// Поле для ввода
+	&-input {
+		display: block;
+		width: 100%;
+		padding: 1.7rem;
+		margin-bottom: 2rem;
+		border: 1px solid @color-input;
+		border-radius: 5px;
+	}
+
+	// Подписи к полям
+	label {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		background-color: @light;
+		padding: 0.5rem;
+		font-size: 1.3rem;
+	}
+
+	// Кнопка оставить заявку
+	&-btn {
+		height: 5rem;
+		width: 100%;
+		font-size: 1.6rem;
+		margin-bottom: 1.4rem;
+	}
+}
+
+
+
+/* Оформление блока с преимуществами */
 
 /* Преимущества */
 .features {
@@ -239,6 +249,10 @@ section{
    }
 	 }
 	}
+
+
+
+
 	/* Отключение обводки активного слайда */
 	.slick-active{
 		outline: none;
@@ -262,6 +276,9 @@ section{
 			background: url(../img/right-arrow.svg) center no-repeat;
 			background-size: 100%;
 		}
+
+
+
 /* Модальные окна */
   .popup {
   	display: none;
@@ -367,6 +384,7 @@ section{
   /* Блок ОТЗЫВЫ */
 
   .feedback{
+		position: relative;
   	background: url(img/feedback/feedback-bg.png) no-repeat center;
   	background-size: cover;
   	&-prev-btn{
@@ -386,10 +404,10 @@ section{
 					content: '';
 					position: absolute;
 					display: block;
-					top: -3rem;
+					top: -1.9rem;
 					border: 2px solid @icon-color;
-					width: 3rem;
-					height: 3rem;
+					width: 2rem;
+					height: 2rem;
 					left: 5rem;
 					background-color: @light;
 					border-bottom: none;
@@ -399,8 +417,8 @@ section{
   	}
   	&-slider{
   		box-shadow: 6px 9px 18px 0 rgba(0, 0, 0, 0.11);
-  		padding: 5rem 6rem;	
-  		.media{
+			padding: 5rem 6rem;	
+			.media{
   		margin-top: 3rem;
   		font-size: 1.4rem;
   		h4{
@@ -423,11 +441,40 @@ section{
   				margin-top: 1.3rem;
   			}
   		}
-  	}
-  }
+		}
+	/* Блок обратной связи */
+	  &-form {
+			text-align: center;
+			margin-top: 5rem;
+			padding: 4rem 10rem;
+		}
+		h3 {
+			font-size: 2.2rem;
+			.bold;
+			margin-bottom: 4rem;
+		}
+		&-btn {
+			max-width: 60%;
+		}
+	}
+	
+	.hand {
+		position: absolute;
+		bottom: 0;
+		left: 5%;
+	}
 		
-			
-		
+		@media (max-width:1199px) {
+			.fotorama{
+				margin-bottom: 3rem;
+			}
+			.form {
+				&-input {
+				  margin: 2rem auto;
+					max-width: 60%;
+				}
+			}
+		}
 		
 		@media (max-width: 991px) {
 			.main{
@@ -443,27 +490,45 @@ section{
 		 	padding-bottom: 4rem;
 		 }
 		 .price {
- 	&-button {
- 		text-align: center;
- 		padding: 2rem 0;
- 	}
- 	&-header-btn {
+     	&-button {
+  	  	text-align: center;
+ 				padding: 2rem 0;
+ 			}
+ 		&-header-btn {
 			margin-top: 0;
 			margin-bottom: 2rem;
+ 		}
+ 		&-block {
+ 			margin-bottom: 2rem;
+ 		}
  	}
- 	&-block {
- 		margin-bottom: 2rem;
- 	}
- }
  .section-header_light {
  	margin-bottom: 0;
  }
-		}
+.form {
+	&-input {
+		margin: 2rem auto;
+		max-width: 100%;
+	}
+ }
+  .hand {
+ 	 display: none;
+  }
+}
 @media (max-width: 767px){
  .header{
  	text-align: center;
  }
  .wrap-block{
  	text-align: center;
+ }
+ .feedback {
+	 &-prev-btn {
+	 	left: 0;
+	 }
+
+	 &-next-btn {
+	 	right: 0;
+	 }
  }
 }

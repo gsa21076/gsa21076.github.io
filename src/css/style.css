@@ -154,7 +154,11 @@ section {
 .main-form-header strong {
   font-size: 1.9rem;
 }
-.main-form-input {
+.main-form small {
+  font-size: 1.2rem;
+}
+/* Оформление форм */
+.form-input {
   display: block;
   width: 100%;
   padding: 1.7rem;
@@ -162,7 +166,7 @@ section {
   border: 1px solid #dddddd;
   border-radius: 5px;
 }
-.main-form label {
+.form label {
   position: absolute;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
@@ -171,14 +175,11 @@ section {
   padding: 0.5rem;
   font-size: 1.3rem;
 }
-.main-form-btn {
+.form-btn {
   height: 5rem;
   width: 100%;
   font-size: 1.6rem;
   margin-bottom: 1.4rem;
-}
-.main-form small {
-  font-size: 1.2rem;
 }
 /* Оформление блока с преимуществами */
 /* Преимущества */
@@ -325,8 +326,10 @@ img {
 }
 /* Блок ОТЗЫВЫ */
 .feedback {
+  position: relative;
   background: url(img/feedback/feedback-bg.png) no-repeat center;
   background-size: cover;
+  /* Блок обратной связи */
 }
 .feedback-prev-btn {
   left: -4rem;
@@ -346,10 +349,10 @@ img {
   content: '';
   position: absolute;
   display: block;
-  top: -3rem;
+  top: -1.9rem;
   border: 2px solid #46b814;
-  width: 3rem;
-  height: 3rem;
+  width: 2rem;
+  height: 2rem;
   left: 5rem;
   background-color: #ffffff;
   border-bottom: none;
@@ -386,6 +389,33 @@ img {
   width: 50%;
   margin-top: 1.3rem;
 }
+.feedback-form {
+  text-align: center;
+  margin-top: 5rem;
+  padding: 4rem 10rem;
+}
+.feedback h3 {
+  font-size: 2.2rem;
+  font-family: 'ProximaNova_Bold', sans-serif;
+  margin-bottom: 4rem;
+}
+.feedback-btn {
+  max-width: 60%;
+}
+.hand {
+  position: absolute;
+  bottom: 0;
+  left: 5%;
+}
+@media (max-width: 1199px) {
+  .fotorama {
+    margin-bottom: 3rem;
+  }
+  .form-input {
+    margin: 2rem auto;
+    max-width: 60%;
+  }
+}
 @media (max-width: 991px) {
   .main {
     background-position: top right;
@@ -413,6 +443,13 @@ img {
   .section-header_light {
     margin-bottom: 0;
   }
+  .form-input {
+    margin: 2rem auto;
+    max-width: 100%;
+  }
+  .hand {
+    display: none;
+  }
 }
 @media (max-width: 767px) {
   .header {
@@ -420,5 +457,11 @@ img {
   }
   .wrap-block {
     text-align: center;
+  }
+  .feedback-prev-btn {
+    left: 0;
+  }
+  .feedback-next-btn {
+    right: 0;
   }
 }
