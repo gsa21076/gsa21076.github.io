@@ -14,6 +14,7 @@
 [Урок_20](https://gsa21076.github.io/project%2020-video/ "Accordeon with Video") - Верстка аккордеона с фоновым видео  
 [Урок_22](https://gsa21076.github.io/project-22-maps/ "Maps") - Верстка сайта с гео-картами  
 [Урок_23](https://gsa21076.github.io/project-23-forms/ "Maps") - Формы на сайте с отпракой на почту  
+[Урок_24](https://gsa21076.github.io/many_pages/ "many-pages") - многостраничный сайт через php  
 
 
 
